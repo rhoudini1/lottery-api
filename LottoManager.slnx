@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LottoManager.Api/LottoManager.Api.csproj" />
+    <Project Path="src/LottoManager.Application/LottoManager.Application.csproj" />
+    <Project Path="src/LottoManager.Contracts/LottoManager.Contracts.csproj" />
+    <Project Path="src/LottoManager.Domain/LottoManager.Domain.csproj" />
+    <Project Path="src/LottoManager.Infrastructure/LottoManager.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>

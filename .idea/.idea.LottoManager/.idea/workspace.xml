@@ -4,20 +4,31 @@
     <projectFile profileName="http">Lottery.Api/Lottery.Api.csproj</projectFile>
     <projectFile profileName="https">Lottery.Api/Lottery.Api.csproj</projectFile>
     <projectFile>src/Lottery.Api/Lottery.Api.csproj</projectFile>
+    <projectFile profileName="http">src/LottoManager.Api/LottoManager.Api.csproj</projectFile>
+    <projectFile profileName="https">src/LottoManager.Api/LottoManager.Api.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b26797a-8772-4d82-ab5f-eb0dd2fab7fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LotteryApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LotteryApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/Lottery.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/Lottery.Api.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lottery.Api/appsettings.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Api/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Application/LottoManager.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Domain/LottoManager.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Domain/Models/Lottery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LottoManager.Infrastructure/LottoManager.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LotteryApi.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/LotteryApi.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Lottery.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Lottery.Api.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/Lottery.Api.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Application/Lottery.Application.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Contracts/Lottery.Contracts.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Domain/Lottery.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Contracts/LottoManager.Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lottery.Infrastructure/Lottery.Infrastructure.csproj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +39,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Application/Services/ILotteryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Application/Services/LotteryService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="37bgQ88yBeBITRDEyO6hcp9aDdF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +95,7 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/Lottery.Api/Lottery.Api.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -118,6 +137,38 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LottoManager.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LottoManager.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -127,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767177166801</updated>
       <workItem from="1767177171983" duration="3954000" />
-      <workItem from="1767185217527" duration="1508000" />
+      <workItem from="1767185217527" duration="10733000" />
     </task>
     <servers />
   </component>

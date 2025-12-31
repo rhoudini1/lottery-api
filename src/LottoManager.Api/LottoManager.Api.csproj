@@ -11,9 +11,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Lottery.Application\Lottery.Application.csproj" />
-      <ProjectReference Include="..\Lottery.Contracts\Lottery.Contracts.csproj" />
-      <ProjectReference Include="..\Lottery.Infrastructure\Lottery.Infrastructure.csproj" />
+      <ProjectReference Include="..\LottoManager.Application\LottoManager.Application.csproj" />
+      <ProjectReference Include="..\LottoManager.Contracts\LottoManager.Contracts.csproj" />
+      <ProjectReference Include="..\LottoManager.Infrastructure\LottoManager.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
