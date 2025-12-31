@@ -1,3 +1,10 @@
 <Solution>
-  <Project Path="Lottery.Api/Lottery.Api.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Lottery.Api/Lottery.Api.csproj" />
+    <Project Path="src/Lottery.Application/Lottery.Application.csproj" />
+    <Project Path="src/Lottery.Contracts/Lottery.Contracts.csproj" />
+    <Project Path="src/Lottery.Domain/Lottery.Domain.csproj" />
+    <Project Path="src/Lottery.Infrastructure/Lottery.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
 </Solution>
