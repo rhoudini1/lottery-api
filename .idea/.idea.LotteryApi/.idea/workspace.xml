@@ -11,25 +11,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b26797a-8772-4d82-ab5f-eb0dd2fab7fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Application/LottoManager.Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Domain/LottoManager.Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Domain/Models/Lottery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LottoManager.Infrastructure/LottoManager.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LotteryApi.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/LotteryApi.slnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Lottery.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Lottery.Api.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/Lottery.Api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Application/Lottery.Application.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Contracts/Lottery.Contracts.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Domain/Lottery.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/LottoManager.Contracts/LottoManager.Contracts.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lottery.Infrastructure/Lottery.Infrastructure.csproj" beforeDir="false" />
-    </list>
+    <list default="true" id="4b26797a-8772-4d82-ab5f-eb0dd2fab7fc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +25,11 @@
     <setting file="file://$PROJECT_DIR$/src/LottoManager.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/LottoManager.Application/Services/ILotteryService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/LottoManager.Application/Services/LotteryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Application/Validators/LotteryValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Domain/Enums/LotteryPrizeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Domain/Interfaces/ILotteryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Domain/Models/Lottery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LottoManager.Domain/Models/LotteryPrizeHit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -63,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Lottery.Api: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.LottoManager.Api: https">
     <configuration name="Lottery.Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -121,10 +108,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Lottery.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lottery.Api/Lottery.Api.csproj" />
+    <configuration name="LottoManager.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
@@ -169,6 +156,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LottoManager.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/LottoManager.Api/LottoManager.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.LottoManager.Api: http" />
+      <item itemvalue=".NET Launch Settings Profile.LottoManager.Api: https" />
+      <item itemvalue=".NET Project.Lottery.Api" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767177166801</updated>
       <workItem from="1767177171983" duration="3954000" />
-      <workItem from="1767185217527" duration="10733000" />
+      <workItem from="1767185217527" duration="14719000" />
     </task>
     <servers />
   </component>

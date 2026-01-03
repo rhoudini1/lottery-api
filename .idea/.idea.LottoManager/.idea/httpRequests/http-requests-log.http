@@ -1,0 +1,619 @@
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 455
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Lotofácil",
+  "minNumber": 1,
+  "maxNumber": 25,
+  "numbersToDraw": 15,
+  "singleBetPrice": 300,
+  "maxBetNumberAmount": 20,
+  "prizeHits": [
+    {
+      "hitNumbers": 15,
+      "type": 1,
+      "amount": 85
+    },
+    {
+      "hitNumbers": 14,
+      "type": 1,
+      "amount": 15
+    },
+    {
+      "hitNumbers": 13,
+      "type": 0,
+      "amount": 1500
+    },
+    {
+      "hitNumbers": 12,
+      "type": 0,
+      "amount": 900
+    }
+  ]
+}
+
+<> 2026-01-03T141301.201.json
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 455
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Lotofácil",
+  "minNumber": 1,
+  "maxNumber": 25,
+  "numbersToDraw": 15,
+  "singleBetPrice": 300,
+  "maxBetNumberAmount": 20,
+  "prizeHits": [
+    {
+      "hitNumbers": 15,
+      "type": 1,
+      "amount": 85
+    },
+    {
+      "hitNumbers": 14,
+      "type": 1,
+      "amount": 15
+    },
+    {
+      "hitNumbers": 13,
+      "type": 0,
+      "amount": 1500
+    },
+    {
+      "hitNumbers": 12,
+      "type": 0,
+      "amount": 900
+    }
+  ]
+}
+
+<> 2026-01-03T140802.500.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 376
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Lotomania",
+  "minNumber": 1,
+  "maxNumber": 200,
+  "numbersToDraw": 20,
+  "singleBetPrice": 300,
+  "maxBetNumberAmount": 50,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+<> 2026-01-03T140629.500.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 376
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Lotomania",
+  "minNumber": 1,
+  "maxNumber": 300,
+  "numbersToDraw": 20,
+  "singleBetPrice": 300,
+  "maxBetNumberAmount": 50,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+<> 2026-01-03T140607.400.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+<> 2026-01-03T140424.500.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+<> 2026-01-03T125602.500.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+<> 2026-01-03T124702.500.txt
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 1,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 1,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 1,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lotteryi
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+
+POST http://localhost:5095/api/lottery
+Content-Type: application/json
+Content-Length: 374
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mega-Sena",
+  "minNumber": 1,
+  "maxNumber": 60,
+  "numbersToDraw": 6,
+  "singleBetPrice": 600,
+  "maxBetNumberAmount": 15,
+  "prizeHits": [
+    {
+      "hitNumbers": 6,
+      "type": 2,
+      "amount": 50
+    },
+    {
+      "hitNumbers": 5,
+      "type": 2,
+      "amount": 30
+    },
+    {
+      "hitNumbers": 4,
+      "type": 2,
+      "amount": 20
+    }
+  ]
+}
+
+###
+

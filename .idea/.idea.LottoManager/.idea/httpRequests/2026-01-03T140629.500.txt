@@ -1,0 +1,22 @@
+FluentValidation.ValidationException: Validation failed: 
+ -- MaxNumber: 'Max Number' deve estar entre 1 e 100. Você digitou 200. Severity: Error
+   at FluentValidation.AbstractValidator`1.RaiseValidationException(ValidationContext`1 context, ValidationResult result) in /_/src/FluentValidation/AbstractValidator.cs:line 390
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 176
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 137
+   at FluentValidation.DefaultValidatorExtensions.ValidateAndThrowAsync[T](IValidator`1 validator, T instance, CancellationToken cancellationToken) in /_/src/FluentValidation/DefaultValidatorExtensions_Validate.cs:line 72
+   at LottoManager.Application.Services.LotteryService.CreateAsync(Lottery lottery, CancellationToken token) in C:\Users\Renan\Documents\Projetos\LotteryApi\src\LottoManager.Application\Services\LotteryService.cs:line 20
+   at LottoManager.Api.Endpoints.Lottery.LotteryModule.<>c.<<AddLotteryModule>b__0_0>d.MoveNext() in C:\Users\Renan\Documents\Projetos\LotteryApi\src\LottoManager.Api\Endpoints\Lottery\LotteryModule.cs:line 17
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: */*
+Host: localhost:5095
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Content-Type: application/json
+Content-Length: 376

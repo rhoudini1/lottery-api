@@ -1,6 +1,40 @@
-@Lottery.Api_HostAddress = http://localhost:5095
+@Api_HostAddress = http://localhost:5095
 
-GET {{Lottery.Api_HostAddress}}/weatherforecast/
+GET {{Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{Api_HostAddress}}/api/lottery
+Content-Type: application/json
+
+{
+  "name": "Lotofácil",
+  "minNumber": 1,
+  "maxNumber": 25,
+  "numbersToDraw": 15,
+  "singleBetPrice": 300,
+  "maxBetNumberAmount": 20,
+  "prizeHits": [
+    {
+      "hitNumbers": 15,
+      "type": 1,
+      "amount": 85
+    },
+    {
+      "hitNumbers": 14,
+      "type": 1,
+      "amount": 15
+    },
+    {
+      "hitNumbers": 13,
+      "type": 0,
+      "amount": 1500
+    },
+    {
+      "hitNumbers": 12,
+      "type": 0,
+      "amount": 900
+    }
+  ]
+}
