@@ -6,5 +6,7 @@
     <Project Path="src/LottoManager.Domain/LottoManager.Domain.csproj" />
     <Project Path="src/LottoManager.Infrastructure/LottoManager.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/LottoManager.UnitTests/LottoManager.UnitTests.csproj" />
+  </Folder>
 </Solution>
